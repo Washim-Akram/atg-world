@@ -1,0 +1,111 @@
+#root {
+  max-width: 1480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.nine-px {
+  font-size: 9px !important;
+}
+.eleven-px {
+  font-size: 11px !important;
+}
+.twelve-px {
+  font-size: 12px !important;
+}
+.fourteen-px {
+  font-size: 14px !important;
+}
+.fifteen-px {
+  font-size: 15px !important;
+}
+.sixteen-px {
+  font-size: 16px !important;
+}
+.nineteen-px {
+  font-size: 19px !important;
+}
+.eighteen-px {
+  font-size: 18px !important;
+}
+.twenty-two-px {
+  font-size: 22px !important;
+}
+.twenty-four-px {
+  font-size: 24px !important;
+}
+.thirty-six-px {
+  font-size: 36px !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .nine-px {
+    font-size: 9px !important;
+  }
+  .eleven-px {
+    font-size: 11px !important;
+  }
+  .twelve-px {
+    font-size: 12px !important;
+  }
+  .fourteen-px {
+    font-size: 14px !important;
+  }
+  .fifteen-px {
+    font-size: 12px !important;
+  }
+  .sixteen-px {
+    font-size: 12px !important;
+  }
+  .eighteen-px {
+    font-size: 12px !important;
+  }
+  .nineteen-px {
+    font-size: 14px !important;
+  }
+  .twenty-two-px {
+    font-size: 16px !important;
+  }
+  .thirty-six-px {
+    font-size: 17px !important;
+  }
+}
+
+
+
+
+input:focus {
+  outline: none;
+}
+.input {
+  border-radius: 2px;
+  border: 0.6px solid #d9d9db;
+  background: #fff;
+}
+
+.modal-content{
+  background-color: transparent !important;
+  border: none !important
+
+}
+.modal-body{
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.btn-close {
+background-image: url(/public/clear-icon.png) !important;
+background-color: #fff !important;
+border-radius: 50px !important;
+opacity: 1 !important;
+padding: 5px !important;
+
+}
+.modal-header {
+  margin-right: 0px !important;
+  margin-bottom: 15px !important;
+  border: none !important;
+}
